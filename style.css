@@ -1,0 +1,198 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  color:rgb(27, 37, 94);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+  color:rgb(243, 116, 116);
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+  font-size: xx-large;
+  text-align: center;
+  color:rgb(86, 89, 131)
+}
+
+p{
+  font-size: x-large;
+  text-align: justify;
+  margin: 0px 10px 0px 10px;
+}
+
+.antet{
+  display:flex;
+  width: 100%;
+  padding: 15px 15px 5px 15px;
+}
+
+.logo{
+  float:left;
+  width:15%;
+}
+
+.motto{
+  float:left;
+  width: 45%;
+  text-align: center;
+}
+
+.meniu {
+  width: 40%;
+  margin-top: 50px;
+  float:right;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(27, 31, 34);
+  border: 3px solid rgb(241, 184, 61);
+  border-radius: 10px;
+  background-color: rgb(241, 243, 129);
+}
+
+a:visited {
+  color: rgb(223, 80, 104);
+}
+
+a:hover {
+  color: red;
+  background-image: linear-gradient(rgb(133, 112, 112), rgb(246, 248, 135));
+}
+
+
+.LaMare{
+  border: 8px solid rgb(248, 247, 165);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.ImgMare{
+  width: 40%;
+  margin: 30px 10px 30px 10px;
+}
+
+.TextMare{
+  padding-left: 20px;
+  width: 60%;
+  text-align: justify;
+}
+
+.LaMunte{
+  border:8px solid rgb(162, 250, 162);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.ImgMunte{
+  width: 40%;
+  margin: 30px 10px 30px 10px;
+}
+
+.TextMunte{
+  padding-left: 20px;
+  width: 60%;
+  text-align: justify;
+}
+
+.VacanțăLaȚară{
+  border:8px solid rgb(238, 203, 139);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.ImgTara{
+  width: 40%;
+  margin: 30px 10px 30px 10px;
+}
+
+.TextTara{
+  padding-left: 20px;
+  width: 60%;
+  text-align: justify;
+}
+
+footer{
+  width: 200px;
+  height: 50px;
+}
+
+/* pagina La Mare*/
+
+.Obiect1{
+  border: 8px solid rgb(248, 247, 165);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.span{
+  color: rgb(247, 75, 75);
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Obiect2{
+    border: 8px solid rgb(248, 247, 165);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.TextMare3{
+  padding-left: 20px;
+  width: 60%;
+}
+
